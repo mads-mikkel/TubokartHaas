@@ -5,5 +5,9 @@
         public int CustomerId { get; set; }
         public string Name { get; set; }
         public List<Booking>? Bookings { get; set; }
+        public override string ToString()
+        {
+            return "something"; 
+        }
     }
 }
