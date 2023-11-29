@@ -1,5 +1,8 @@
 ﻿namespace Turbokart.Domain.Entities
 {
+    /// <summary>
+    /// bla bla
+    /// </summary>
     public class Booking
     {
         public int BookingId { get; set; }
